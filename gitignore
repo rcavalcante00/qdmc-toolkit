@@ -1,0 +1,31 @@
+# Bytecode compilado (NUNCA commitar isso)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados e resultados
+*.npz
+*.csv
+!data/exemplo*.csv
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
