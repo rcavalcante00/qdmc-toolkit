@@ -47,7 +47,6 @@ Obs: qualquer solver suportado pelo pacote `qpsolvers` pode ser utilizado.
   do problema de programação quadrática, além de resolver o QP (`QPSolve`).
 - **`controllers.py`** — implementa o controlador `QDMC`, que integra modelo,
   custo e restrições a cada instante de amostragem.
-- **`utils.py`** — `Logger` para registrar a execução do controlador e
-  `prbs_mimo`/funções de identificação FIR para gerar dados de teste.
+- **`utils.py`** — `Logger` para registrar a execução do controlador.
 - **`MIMOsys.py`** — simulador de plantas FOPDT (inclui o clássico exemplo
   Wood-Berry), útil para testar o controlador em malha fechada sem hardware real.
