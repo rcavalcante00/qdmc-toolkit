@@ -1,8 +1,8 @@
 """
-This code define some linear models for Model Predictive Control applications. The models are used to build the Hessian matrix and the linear vector of the quadratic optimization problem.
+This code define the step response model for Model Predictive Control applications. The model is used to build the Hessian matrix and the linear vector of the quadratic optimization problem.
 
 
-@author: rafae
+@author: Rafael
 """
 import warnings
 from typing import Protocol, Deque, cast, overload
