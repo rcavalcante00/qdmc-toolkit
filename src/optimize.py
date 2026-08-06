@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
 """
-Created on Sat May  9 19:13:26 2026
 
-@author: rafae
+@author: Rafael
 """
 from typing import Literal, List, Tuple, Deque
 
