@@ -1,10 +1,8 @@
-from dataclasses import dataclass, asdict, fields
-from typing import Optional, Dict, Literal
+from dataclasses import dataclass, asdict
 
 import numpy as np
 import pandas as pd
-from numpy.typing import NDArray, ArrayLike
-from scipy.signal import max_len_seq
+from numpy.typing import NDArray
 
 @dataclass(slots=True)
 class LogEntry:
@@ -119,7 +117,7 @@ class Logger:
 
         return pd.DataFrame(rows)
     
-    def to_numpy(self) -> Dict:
+    def to_numpy(self) -> dict:
 
         fields = self.data[0].__dataclass_fields__.keys()
 
