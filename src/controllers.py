@@ -162,7 +162,7 @@ class QDMC:
 
         feedback_state = FeedbackState(y_meas=y_meas, du_past=self.move_history)
         F = self.model.free_response(feedback_state)
-        # self.eu = F
+        self.eu = F
 
         c = self.qp_cost.update(
                         y_sp=y_sp,
